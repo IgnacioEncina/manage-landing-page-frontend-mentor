@@ -29,15 +29,5 @@ window.addEventListener('load', () => {
         nav.style.boxShadow =  'none';
     });
 
-    window.addEventListener('resize', ()=> {
-        open.style.display = 'block';
-        close.style.display = 'none';
-        nav.style.visibility = 'hidden';
-        ul.style.visibility = 'hidden';
-        ul.style.filter = 'opacity(0)';
-        nav.style.height = '0px';
-        nav.style.boxShadow =  'none';
-    })
-
 
 });
